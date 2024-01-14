@@ -12,7 +12,7 @@ const options = program.opts();
 
 const { listContacts, getContactById, addContact, removeContact } = require('./contacts');
 
-// TODO: рефакторити
+
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
